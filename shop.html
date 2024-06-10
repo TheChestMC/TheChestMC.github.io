@@ -5,6 +5,22 @@
 </head>
 <style>
 
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: ;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.parenta {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: ;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
 a:link {
   color: #0096FF;
   background-color: transparent;
@@ -32,6 +48,12 @@ body {
   background-color: #80808088;
 }
 
+. container{
+
+display:flex;
+
+}
+
 .topnav a {
   float: left;
   color: #cccccc;
@@ -57,7 +79,8 @@ body {
 
 <div class="topnav">
   <a href="index.html"><font face = "Tahoma"><b>[Home]</b></font></a>
-  <a class="active"href="shop.html"><font face = "Tahoma"><b>[Kit Shop]</b></font></a>
+  <a class="active" href="shop.html"><font face = "Tahoma"><b>[Kit Shop]</b></font></a>
+  <a href="prototypes.html"><font face = "Tahoma"><b>[Prototype Kits]</b></font></a>
 </div>
 
 <center><h1 id="outline"><font face="Courier New"><font size="9"><b>Kits</b></font></font></h1></center>
@@ -67,52 +90,72 @@ body {
 
 <br><br><h2 id="outline"><center><font size = "7" face="Trebuchet MS" color = "#00f0ff"><u>Food</u></font></center></h2>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Lunchbox V1</font></center></h2>
 <center><img src="kits/LunchboxV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#00ff00">1 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 12 Diamonds</font></center></h2> <br><br>
+</div>
 
 <br><br><h2 id="outline"><center><font size = "7" face="Trebuchet MS" color = "#00f0ff"><u>Gear</u></font></center></h2>
 
+<div class="parent">
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Exploration Kit V1</font></center></h2>
 <center><img src="kits/ExplorationKitV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 20 Diamonds</font></center></h2> <br><br>
+</div>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Mine Kit V1</font></center></h2>
 <center><img src="kits/MineKitV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 10 Diamonds</font></center></h2> <br><br>
+</div>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Nomad Kit V1</font></center></h2>
 <center><img src="kits/NomadKitV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 20 Diamonds</font></center></h2> <br><br>
+</div>
+</div>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">PvP Kit V2</font></center></h2>
 <center><img src="kits/PVPKitV2.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 15 Diamonds</font></center></h2> <br><br>
+</div>
 
 <br><br><h2 id="outline"><center><font size = "7" face="Trebuchet MS" color = "#00f0ff"><u>Utility</u></font></center></h2>
 
+<div class="parenta">
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Garden Kit V1</font></center></h2>
 <center><img src="kits/GardenKitV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 10 Diamonds</font></center></h2> <br><br>
+</div>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Decor Kit V1</font></center></h2>
 <center><img src="kits/DecorKitV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: 15 Diamonds</font></center></h2> <br><br>
+</div>
+</div>
+
 
 <br><br><h2 id="outline"><center><font size = "7" face="Trebuchet MS" color = "#00f0ff"><u>Glitched Items</u></font></center></h2>
 
+<div>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Glitched Skeleton Gear (0 Durability)</font></center></h2>
 <center><img src="kits/GlitchedSkeletonGearV1.png"></center>
 <h2 id="outline"><center><font size = "4" face="Trebuchet MS" color = "#ff0000">0 In Stock (There will be 0 for a while)</font></center></h2>
 <h2 id="outline"><center><font size = "5" face="Trebuchet MS">Price: Undecided</font></center></h2> <br><br>
-
+</div>
 
 </body>
 </html>
